@@ -9,7 +9,8 @@ function setCart(c) {
   return cart;
 }
 
-function addToCart(itemName) {{
+function addToCart(item) {
+  item: {
  itemName: "bananas",
  itemPrice: 17
 }
