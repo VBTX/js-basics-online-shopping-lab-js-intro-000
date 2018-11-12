@@ -18,7 +18,7 @@ function addToCart(item) {
 
 function viewCart() {
   for (var i = 0; i <= cart.length; i++){
-    if (cart.length>0){}
+    if (cart.length>0){
     return `In your cart, you have ${itemName} at $${itemPrice}`
   }else{
     return `Your shopping car is empty.`
