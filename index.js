@@ -14,7 +14,6 @@ function addToCart(item) {
  itemName: "bananas",
  itemPrice: "17"
 });
-}
 
 function viewCart() {
   for (var i = 0; i <= cart.length; i++){
