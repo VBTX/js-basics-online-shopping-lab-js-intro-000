@@ -25,6 +25,7 @@ addToCart("vanilla");
 function viewCart() {
   for (var i = 0; i <= cart.length; i++){
     var item = cart[i];
+    var itemPrice = cart[i].itemPrice; 
     if (cart.length === 1){
     return `In your cart, you have ${item[i]} at $${itemPrice}.`;
   }else if(cart.length === 2){
