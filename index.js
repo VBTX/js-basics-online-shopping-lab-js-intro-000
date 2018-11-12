@@ -27,11 +27,11 @@ function viewCart() {
     var item = cart[i];
     var itemPrice = cart[i].itemPrice;
     if (cart.length === 1){
-    return `In your cart, you have ${cart.item} at $${cart.itemPrice}.`;
+    return `In your cart, you have ${cart.item} at $${itemPrice}.`;
   }else if(cart.length === 2){
-    return `In your cart, you have ${cart.item} at $${cart.itemPrice}, and ${cart.item} at $${cart.itemPrice}.`;
+    return `In your cart, you have ${cart.item} at $${itemPrice}, and ${cart.item} at $${itemPrice}.`;
   }else if(cart.length >= 3){
-    return `In your cart, you have ${cart.item} at $${cart.itemPrice}, ${cart.item} at $${cart.itemPrice}, and ${cart.item} at $${cart.itemPrice}.`;
+    return `In your cart, you have ${cart.item} at $${itemPrice}, ${cart.item} at $${itemPrice}, and ${cart.item} at $${itemPrice}.`;
   }else{
     return `Your shopping cart is empty.`;
   }
