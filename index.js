@@ -10,7 +10,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-  this.cart.push({
+ cart.push({
  itemName: "bananas",
  itemPrice: "17"
 });
