@@ -24,7 +24,7 @@ addToCart("ice cream");
 function viewCart() {
   for (var i = 0; i <= cart.length; i++){
     if (cart.length>0){
-    return `In your cart, you have ${itemName} at $${itemPrice}`
+    return `In your cart, you have ${item} at $${itemPrice}`
   }else{
     return `Your shopping cart is empty.`
   }
