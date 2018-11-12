@@ -12,7 +12,7 @@ function setCart(c) {
 function addToCart(itemName) {{
  itemName: "bananas",
  itemPrice: 17
-};
+}
 }
 
 function viewCart() {
