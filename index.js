@@ -12,7 +12,7 @@ function setCart(c) {
 function addToCart(item) {
   item: {
  itemName: "bananas",
- itemPrice: 17
+ itemPrice: "17"
 };
 }
 
