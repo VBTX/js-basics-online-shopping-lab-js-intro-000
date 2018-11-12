@@ -41,8 +41,9 @@ function total() {
 }
 
 function removeFromCart(item) {
-  cart.pop("vanilla");
+  cart.pop();
 }
+removeFromCart("vanilla");
 
 function placeOrder(cardNumber) {
   // write your code here
