@@ -9,12 +9,19 @@ function setCart(c) {
   return cart;
 }
 
-function addToCart(item) {
- // write your code here
+function addToCart(itemName) {
+ itemName: "bananas",
+ itemPrice: 17
+
 }
 
 function viewCart() {
-  // write your code here
+  for (var i = 0; i <= cart.length; i++){
+    if (cart.length>0){}
+    return `In your cart, you have ${itemName} at $${itemPrice}`
+  }else{
+    return `Your shopping car is empty.`
+  }
 }
 
 function total() {
