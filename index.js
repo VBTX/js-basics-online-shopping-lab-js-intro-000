@@ -18,6 +18,7 @@ return `${item} has been added to your cart.`
 }
 
 addToCart("ice cream");
+addToCart("vanilla");
 
 
 
@@ -36,7 +37,7 @@ function total() {
 }
 
 function removeFromCart(item) {
-  // write your code here
+  cart.pop("vanilla");
 }
 
 function placeOrder(cardNumber) {
