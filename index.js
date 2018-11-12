@@ -14,7 +14,10 @@ function addToCart(item) {
  itemName: "daikon",
  itemPrice: Math.floor(Math.random() * 100)
 });
+return `${cart.itemName} has been added to your cart.`
 }
+
+
 
 function viewCart() {
   for (var i = 0; i <= cart.length; i++){
