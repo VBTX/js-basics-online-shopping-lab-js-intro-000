@@ -12,7 +12,10 @@ function setCart(c) {
 function addToCart(item) {
  cart.push({
  itemName: "daikon",
- itemPrice: "17"
+ itemPrice: expect(actual){
+   return expect(actual).toBeLessThanOrEqualTo(100);
+ }
+ }
 });
 
 function viewCart() {
