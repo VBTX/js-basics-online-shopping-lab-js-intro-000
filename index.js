@@ -15,6 +15,7 @@ function addToCart(item) {
  itemPrice: Math.floor(Math.random() * 100)
  }
 });
+}
 
 function viewCart() {
   for (var i = 0; i <= cart.length; i++){
