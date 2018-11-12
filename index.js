@@ -27,7 +27,7 @@ function viewCart() {
     var item = cart[i];
     var itemPrice = cart[i].itemPrice; 
     if (cart.length === 1){
-    return `In your cart, you have ${item[i]} at $${itemPrice}.`;
+    return `In your cart, you have ${item} at $${itemPrice}.`;
   }else if(cart.length === 2){
     return `In your cart, you have ${item} at $${itemPrice}, and ${item} at $${itemPrice}.`;
   }else if(cart.length >= 3){
