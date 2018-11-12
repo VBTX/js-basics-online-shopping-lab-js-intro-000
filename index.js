@@ -25,13 +25,13 @@ addToCart("vanilla");
 function viewCart() {
   for (var i = 0; i <= cart.length; i++){
     if (cart.length === 1){
-    return `In your cart, you have ${item} at $${itemPrice}.`
+    return `In your cart, you have ${item} at $${itemPrice}.`;
   }else if(cart.length === 2){
-    return `In your cart, you have ${item} at $${itemPrice}, and ${item} at $${itemPrice}.`
+    return `In your cart, you have ${item} at $${itemPrice}, and ${item} at $${itemPrice}.`;
   }else if(cart.length >= 3){
-    return `In your cart, you have ${item} at $${itemPrice}, ${item} at $${itemPrice}, and ${item} at $${itemPrice}.`
+    return `In your cart, you have ${item} at $${itemPrice}, ${item} at $${itemPrice}, and ${item} at $${itemPrice}.`;
   }else{
-    return `Your shopping cart is empty.`
+    return `Your shopping cart is empty.`;
   }
 }
 }
