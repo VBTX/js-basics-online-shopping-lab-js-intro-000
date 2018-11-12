@@ -9,10 +9,10 @@ function setCart(c) {
   return cart;
 }
 
-function addToCart(itemName) {
+function addToCart(itemName) {{
  itemName: "bananas",
  itemPrice: 17
-
+};
 }
 
 function viewCart() {
