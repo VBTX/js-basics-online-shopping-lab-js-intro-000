@@ -17,6 +17,8 @@ function addToCart(item) {
 return `${item} has been added to your cart.`
 }
 
+addToCart("ice cream");
+
 
 
 function viewCart() {
