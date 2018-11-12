@@ -14,7 +14,7 @@ function addToCart(item) {
  itemName: "daikon",
  itemPrice: Math.floor(Math.random() * 100)
 });
-return `${cart.itemName} has been added to your cart.`
+return `${item} has been added to your cart.`
 }
 
 
