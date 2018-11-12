@@ -24,6 +24,7 @@ function viewCart() {
     return `Your shopping car is empty.`
   }
 }
+}
 
 function total() {
   // write your code here
@@ -36,3 +37,4 @@ function removeFromCart(item) {
 function placeOrder(cardNumber) {
   // write your code here
 }
+
