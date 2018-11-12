@@ -13,7 +13,6 @@ function addToCart(item) {
  cart.push({
  itemName: "daikon",
  itemPrice: Math.floor(Math.random() * 100)
- }
 });
 }
 
